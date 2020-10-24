@@ -1,0 +1,6 @@
+{
+    "system": {
+        "dockerfile_path": "./system",
+        "cuda_tag": "9.0-cudnn7-runtime-ubuntu16.04"
+    }
+}
