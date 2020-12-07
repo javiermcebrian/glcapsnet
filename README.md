@@ -1,8 +1,10 @@
 # GLCapsNet
 
-GLCapsNet (Global-Local Capsule Network) is a **capsule-based** architecture able to provide **context-based eye fixation prediction** for several autonomous driving scenarios, while offering **interpretability** both **globally and locally**.
+Code for the paper entitled [Interpretable Global-Local Dynamics for the Prediction of Eye Fixations in Autonomous Driving Scenarios](https://ieeexplore.ieee.org/document/9275291), publicly available in IEEE Access. Supplementary material as videos and images will be provided along with the paper in the [IEEE Access site](https://ieeexplore.ieee.org/document/9275291).
 
 ![picture](imgs/glcapsnet.png)
+
+Global-Local Capsule Network (**GLCapsNet**) block diagram. It predicts **eye fixations** based on several **contextual conditions** of the scene, which are represented as combinations of several spatio-temporal features (RGB, Optical Flow and Semantic Segmentation). Its hierarchical multi-task approach routes Feature Capsules to Condition Capsules both **globally and locally**, which allows for the **interpretation** of visual attention in **autonomous driving scenarios**.
 
 ## Docker environment
 
