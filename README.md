@@ -1,6 +1,6 @@
 # GLCapsNet
 
-Code for the paper entitled [Interpretable Global-Local Dynamics for the Prediction of Eye Fixations in Autonomous Driving Scenarios](https://ieeexplore.ieee.org/document/9275291), publicly available in IEEE Access. Supplementary material as videos and images will be provided along with the paper in the [IEEE Access site](https://ieeexplore.ieee.org/document/9275291).
+Code for the paper entitled [Interpretable Global-Local Dynamics for the Prediction of Eye Fixations in Autonomous Driving Scenarios](https://ieeexplore.ieee.org/document/9275291), publicly available in IEEE Access. Supplementary material as videos and images are provided along with the paper in the [IEEE Access site](https://ieeexplore.ieee.org/document/9275291).
 
 ![picture](imgs/glcapsnet.png)
 
@@ -74,6 +74,22 @@ Global-Local Capsule Network (**GLCapsNet**) block diagram. It predicts **eye fi
 #### Requirements
 Model function names are required to be unique per conv_block or caps_block, as the code manage the executions via that names.
 
+
+## Citation
+
+If you use portions of this code or ideas from the paper, please cite our work:
+```
+@article{martinez2020glcapsnet,
+  title={Interpretable Global-Local Dynamics for the Prediction of Eye Fixations in Autonomous Driving Scenarios},
+  author={J. {Martínez-Cebrián} and M. {Fernández-Torres} and F. {Díaz-de-María}},
+  journal={IEEE Access},
+  volume={8},
+  pages={217068-217085},
+  year={2020},
+  publisher={IEEE},
+  doi={10.1109/ACCESS.2020.3041606}
+}
+```
 
 ## Questions
 
